@@ -12,6 +12,14 @@
   --button-text-color: rgb(253, 226, 255);
 }
 
+/* 폰트 */
+@font-face {
+  font-family: 'GangwonEdu_OTFBoldA';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEdu_OTFBoldA.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 /* 기본설정 */
 html, body {
   margin: 0px;
@@ -24,7 +32,7 @@ p {
   /* 기본 글자색 */
   color: white;
   /* 기본 폰트 */
-  /* font-family: ; */
+  font-family: 'GangwonEdu_OTFBoldA';
   margin: 0px;
 }
 a { /* 링크 넣으면 밑줄 넣는거 없에기 */
@@ -59,7 +67,7 @@ body {
 
   /* 크기 */
   width: 460px;
-  height: 446px;
+  height: 436px;
 }
 
 /* 프사 스타일 */
@@ -75,13 +83,13 @@ body {
 #profile-name {
   font-weight: bold;
   margin-bottom: 12px;
-  font-size: 1.4rem;
+  font-size: 1.7rem;
 }
 
 /* 프로필 설명 */
 #profile-description {
   margin-bottom: 12px;
-  font-size: 0.9rem;
+  font-size: 1rem;
 }
 
 /* 분활하는 선 */
